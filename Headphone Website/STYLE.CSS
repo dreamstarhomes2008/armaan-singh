@@ -1,0 +1,656 @@
+html{
+    scroll-behavior: smooth;
+}
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.mai{
+    background-image: url("background1.png");
+    height: AUTO;
+    padding: 20PX;
+    padding-bottom: 5%;
+
+
+}
+.dadbanner{
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+align-items: center;
+flex-wrap:wrap-reverse;
+}
+
+.dadbanner .img1{
+    width: 34%;
+    height: auto;
+    user-select: none;
+}
+.headlel .mainh1{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 6vw;
+    color: #ffff;
+    font-weight: bolder;
+}
+.TEXT1 .MAINP {
+    color: #ffff;
+}
+
+.BUTTON1{
+    border: 1.56PX  SOLID rgb(255, 255, 255);
+    padding: 10PX;
+    margin-top: 25PX;
+    width: 150PX;
+    border-radius: 40PX;
+    color: white;
+    transition: 1s;
+}
+.BUTTON1:hover{
+    color: black;
+    background: #ffff;
+    border: 1.56PX  solid #ffff;
+}
+#toggle{
+	display: none;
+}
+
+.togglearea
+{
+	
+	border-bottom: 2px solid solid white;
+	color: black;
+	padding: 10px;
+	display: flex;
+
+	position: sticky;
+
+}
+
+.togglearea label
+{
+	
+	height: 45px;
+	width: 50px;
+	color: rgb(255, 255, 255);
+	border-radius: 6px;
+	cursor: pointer;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	position: sticky;
+}
+
+.togglearea label span
+{
+	background-color: rgb(255, 255, 255);
+	height: 3.5px;
+	width: 70%;
+	margin: 3px;
+	position: sticky;
+
+}
+
+.togglearea
+{
+	display: none;
+	position: sticky;
+}
+.nav a{
+    padding: 14px 28px;
+    transition: 1s;
+font-size: 16px;
+}
+.nav a:hover{
+    border-bottom: 1px solid #ffff;
+
+}
+.active
+{
+    border-bottom: 1px solid #ffff;
+}
+
+.mai2{
+    display: flex;
+justify-content: center;
+    flex-direction: row;
+    margin-top: 10%;
+}
+.mai2 h2{
+    letter-spacing: 1px;
+}
+
+.div1{
+    width: 30%;
+    height: auto;
+    border-radius: 20px;
+    padding: 30px;
+ background-color: #F2F2F2;
+ display: flex;
+ align-items:center;
+ justify-content: space-around;
+ flex-wrap: wrap;
+ margin: 10px;
+}
+
+.div2{
+    width: 30%;
+    height: auto;
+    border-radius: 20px;
+    padding: 30px;
+ background-color: #F2F2F2;
+ display: flex;
+ align-items:center;
+ justify-content: space-around;
+ flex-wrap: wrap;
+ margin: 10px;
+
+}
+ .img45{
+    height: auto;
+    width: 40%;
+    /* min-width: 220px; */
+    float: right;
+}
+.section3{
+    margin-top: 10%;
+}
+.heading h1{
+    text-align: center;
+    font-size: 45px;
+    font-family: 'Bebas Neue', cursive;
+
+}
+.maindis{
+    width: 100%;
+    padding: 30px;
+display: grid;
+grid-template-columns: repeat(6 , 1fr);
+
+
+}
+
+
+.dis1{
+    grid-column-start: 2;
+   
+
+}
+.dis2{
+    grid-column-start: 3;
+   
+    
+}
+.dis3{
+    grid-column-start: 4;
+    
+
+}
+.dis4{
+    grid-column-start: 5;
+   
+} 
+
+
+
+
+
+
+
+.maindis h3 ,.mainproducts h3{
+    font-weight: bolder;
+    font-size: 0.8em;
+}
+.maindis h4 ,.mainproducts h4 {
+color: blue;
+
+}
+.maindis button ,.mainproducts button {
+    margin-top: 20px;
+   border-bottom-color: black;
+   border-bottom-width: 2px;
+   font-weight: bolder;
+   font-size: 0.8em;
+  
+}
+
+.section4{
+    background-image: url("bg2.jpg");
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.section4 img{
+    height: auto;
+    width: 30%;
+
+}
+.section4  h1{
+    font-family: 'Bebas Neue', cursive;
+    color: #ffff;
+  font-size: 50px;
+}
+.section4 .P1 {
+    color: #ffff;
+    font-size: 30px;
+}
+.section4 .p2{
+    color: #ffff;
+ 
+
+}
+.mainproducts{
+    display: grid;
+    grid-template-rows:  repeat(3 ,0fr);
+    grid-template-columns: repeat(6 ,);
+    margin-bottom: 10%;
+    padding: 30PX;
+}
+
+
+.de1{
+    grid-column-start: 2;
+    grid-row-start: 2;
+}
+.de2{
+    grid-column-start: 3;
+    grid-row-start: 2;
+}
+.de3{
+    grid-column-start: 4;
+    grid-row-start: 2;
+}
+.de4{
+    grid-column-start: 2;
+    grid-row-start: 3;
+}
+
+.de5{
+    grid-column-start: 3;
+    grid-row-start: 3;
+}
+.de6{
+    grid-column-start: 4;
+    grid-row-start: 3;
+}
+.de7{
+    grid-column-start: 5;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    background-image: url("background1.png");
+    border-radius: 20px;
+    color: white;
+}
+
+.de7 img {
+    position: relative;
+    width: 15VW;
+    right: -38px;
+    bottom: -72px;
+}
+
+
+
+.H1{
+    text-align: center;
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+font-size:45PX ;
+word-break: break-all;
+position: relative;
+top: 18PX;
+}
+
+.P{
+    text-align: center;
+
+}
+.H1::before{
+    content: "BEST";
+    position: relative;
+    top: 18PX;
+}
+.H1:AFTER{
+    content: " DEALS !";  
+    position: relative;
+    top: -13PX;   
+}
+
+.ulu{
+    background-image: url("bg2.jpg");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 190px;
+    margin-top: 18%;
+    margin-bottom: 10%;
+
+}
+.ulu .condiv{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #F2F2F2;
+border-radius: 20px;
+    align-items: center;
+    padding: 40px;
+    margin-bottom: 200px;
+    width: 1316px;
+}
+
+.ulu .condiv img{
+    width: 100px ;
+    border-radius: 50px;
+}
+.condiv h1{
+    font-family: 'Lato', sans-serif;
+    font-size: 25px;
+    font-weight: bolder;
+}
+.condiv h3{
+    color: blue;
+    font-weight: bold;
+}
+
+
+
+
+.newzDAD{
+    display: flex;
+    margin: 5%;
+    justify-content: space-around;    
+}
+.newzDAD div11 , div12 , div13{
+    margin: 10px;
+
+}
+
+.newzDAD H3{
+    font-weight: 500;
+    font-size: largeR;
+}
+.newzimg{
+    width: 100%;
+    border-radius: 15px;
+    
+    
+}
+
+.allbrnd{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #F2F2F2;
+    padding: 30px;
+    flex-wrap: wrap;
+}
+.allbrnd img {
+    width: 7%;
+    height: auto;
+    min-width: 90px;
+    margin: 5px;
+}
+
+.tablexd {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.headlel .mainh1 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 6vw;
+    margin-top: -44px;
+    color: #ffff;
+    font-weight: bolder;}
+/* exeption */ 
+/* exeption */
+/* exeption */
+/* exeption */
+/* exeption */
+@media screen and (max-width:1024px){   
+    .headlel{
+    display: flex;
+    flex-direction: row;
+   
+
+
+    }
+    .headlel h1{
+        margin-left: 10px;
+    margin-top: -44px;
+
+       
+    }
+    
+    
+    .dadbanner .img1{
+        width: 90%;
+        height: auto;
+        user-select: none;
+    }
+    .mai2{
+        display: flex;
+        justify-content: space-around;
+            align-items: center;
+            margin-top: 10%;
+    flex-direction: column;
+        }
+        .div1 ,.div2{
+            width: 90%;
+            height: auto;
+            border-radius: 20px;
+            padding: 10px;
+         background-color: #F2F2F2;
+         display: flex;
+         align-items: center;
+         justify-content: space-around;
+         margin: 10px;
+
+         text-align: center;
+        }
+        .navsection , .nav{
+            flex-direction: column;
+        }
+    
+
+        .nav a{
+            flex-direction: column;
+            display: none;
+        }
+        .section4 img{
+            height: auto;
+            width: 100%;
+        }
+
+
+      
+        #toggle:checked + .nav a
+        {
+            display: flex;
+            animation-name: nav;
+      animation-duration: 2s;
+    
+        }
+    
+        .togglearea
+        {	
+            display: flex;	
+        
+        }
+    
+        #toggle
+        {
+            display: none;
+        }
+
+       
+}
+
+
+@media screen and (max-width:767px) {
+    .div1{
+    flex-direction:column-reverse;
+    }
+    
+    .div2{
+       flex-direction:column-reverse;
+    }
+    .img45{
+        width: 60%;
+    }
+}
+
+@media screen and (max-width:1123px) {
+    .newzDAD{
+     flex-direction: column;
+ 
+    }
+    .tablexd{
+        justify-content: center;
+        align-self: center;
+    }
+    
+    
+}
+@media screen and (max-width:1024px) {
+   
+.maindis{
+display: grid;
+grid-template-columns: repeat(1 , 50%);
+grid-template-rows: repeat(1  , 50%);
+}
+.dis1{
+    grid-column-start: 2;
+    grid-row-start: 2;
+
+
+}
+.dis2{
+    grid-column-start: 1;
+    grid-row-start: 2;
+
+    
+}
+.dis3{
+    grid-column-start: 1;
+    grid-row-start: 1;
+
+}
+.dis4{
+    grid-column-start: 2;
+    grid-row-start: 1;
+   
+} 
+
+.de7{
+    display: none;
+   }
+   .mainproducts{
+    display: grid;
+    grid-template-columns: repeat( 4 , 10% 40% 40% 10%);
+    grid-template-rows:   repeat(  5 ,0fr)  ;
+    }
+    .de1{
+        grid-column-start: 2;
+        grid-row-start: 1;
+        text-align: inherit;
+    }
+    .de2{
+        grid-column-start: 3;
+        grid-row-start: 1;
+        text-align: inherit;
+    }
+    .de3{
+        grid-column-start: 2;
+        grid-row-start: 2;
+        text-align: inherit;
+    }
+    .de4{
+        grid-column-start: 3;
+        grid-row-start: 2;
+        text-align: inherit;
+    }
+
+    
+    .de5{
+        grid-column-start: 2;
+        grid-row-start: 3;
+        text-align: inherit;
+    }
+    .de6{
+        grid-column-start: 3;
+        grid-row-start: 3;
+        text-align: inherit;
+    }
+   
+   
+
+  
+}
+
+
+
+
+    
+@media screen and (max-width:1270px) {
+    .headlel .mainh1 {
+        font-family: 'Bebas Neue', cursive;
+        font-size: 6vw;
+        margin-top: -34px;
+        color: #ffff;
+        font-weight: bolder;}
+}
+
+@media screen and (max-width:720px) {
+    
+    .headlel .mainh1 {
+        margin-top: 0px;
+        font-size: 10vw;
+      }
+      .tablexd {
+        margin-top: 25%;
+        margin-bottom: 0%;
+    }
+
+
+
+    }
+
+
+@media screen and (max-width:472PX) {
+    .maindis {
+        width: 100%;
+        padding: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    
+    }
+    .mainproducts{
+        flex-direction: column;
+            display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      
+      }
+      .de6{
+     margin-bottom: 100px ;
+    }
+}
+
+@media screen and (max-width:393px){
+    .ulu .condiv {
+     
+        margin-top: 316px;
+    }
+}
